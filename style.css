@@ -14,13 +14,13 @@ body{
     display: flex;
     align-items: center ;
     justify-content: center;
-   max-height:100vh;
+   height:100vh;
     background: linear-gradient(198deg ,rgb(22, 99, 120),cyan);
 }
 .birthdayCard{
     position: relative;
-    max-width: 250px;
-    max-height: 350px;
+    width: 250px;
+    height: 350px;
     cursor: pointer;
     transform-style: preserve-3d;
     transform: perspective(2500px);
@@ -41,8 +41,8 @@ body{
 .cardFront{
  position: relative;
  background-color:black;
- max-width: 250px;
- max-height: 350px;
+ width: 250px;
+ height: 350px;
  overflow: hidden;
  transform-origin: left;
  box-shadow:inset 100px 20px 100px 100px rgba(0, 0, 0, 2), 0 10px 100px rgba(0,0,0,0.5);
@@ -58,8 +58,8 @@ body{
 .cardInside {
     position: absolute;
     background-color: black;
-    max-width: 250px;
-    max-height: 350px;
+    width: 250px;
+    height: 350px;
     z-index: -1;
     left: 0;
     top: 0;
